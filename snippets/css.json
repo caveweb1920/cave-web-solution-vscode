@@ -1,0 +1,10 @@
+{
+  "Flex Center": {
+    "prefix": "flex-center",
+    "body": [
+      "display: flex;",
+      "justify-content: center;",
+      "align-items: center;"
+    ]
+  }
+}
