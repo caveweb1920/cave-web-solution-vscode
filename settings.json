@@ -1,0 +1,34 @@
+{
+  // Performance
+  "files.watcherExclude": {
+    "**/node_modules/**": true,
+    "**/.git/**": true,
+    "**/dist/**": true,
+    "**/build/**": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true
+  },
+  "editor.smoothScrolling": true,
+  "editor.cursorBlinking": "expand",
+  "editor.fontFamily": "'JetBrains Mono', 'Fira Code', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.6,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "workbench.colorTheme": "Cave Dark Pro",
+  "workbench.iconTheme": "material-icon-theme",
+  "terminal.integrated.fontFamily": "'JetBrains Mono', monospace",
+  "terminal.integrated.fontSize": 13,
+  "terminal.integrated.gpuAcceleration": "on",
+
+  // Extension defaults
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+  "eslint.format.enable": true,
+  "gitlens.currentLine.enabled": true,
+  "liveServer.settings.donotShowInfoMsg": true
+}
