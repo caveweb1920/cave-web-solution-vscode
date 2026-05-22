@@ -1,6 +1,8 @@
 {
   "recommendations": [
-    // ── Core Web Development ──
+    // ═══════════════════════════════════════
+    // 🌐 WEB DEVELOPMENT
+    // ═══════════════════════════════════════
     "esbenp.prettier-vscode",
     "dbaeumer.vscode-eslint",
     "formulahendry.auto-close-tag",
@@ -8,33 +10,61 @@
     "christian-kohler.path-intellisense",
     "ritwickdey.LiveServer",
     "bradlc.vscode-tailwindcss",
-
-    // ── JavaScript / React ──
     "dsznajder.es7-react-js-snippets",
     "yoavbls.pretty-ts-errors",
+    "xabikos.JavaScriptSnippets",
 
-    // ── Git & Collaboration ──
+    // ═══════════════════════════════════════
+    // ☕ JAVA
+    // ═══════════════════════════════════════
+    "vscjava.vscode-java-pack",         // Everything: language support, debugger, test runner, Maven, Gradle
+    "vmware.vscode-boot-dev-pack",      // Spring Boot tools (optional but very useful)
+    "redhat.java",
+
+    // ═══════════════════════════════════════
+    // ⚙️ C / C++
+    // ═══════════════════════════════════════
+    "ms-vscode.cpptools-extension-pack", // IntelliSense, debugging, CMake, themes
+    "twxs.cmake",
+    "ms-vscode.cmake-tools",
+    "aaron-bond.better-comments",       // already included, great for C/C++ annotations
+
+    // ═══════════════════════════════════════
+    // 🎯 C# / .NET
+    // ═══════════════════════════════════════
+    "ms-dotnettools.csharp",            // Base C# extension (LSP, debugging)
+    "ms-dotnettools.vscode-dotnet-runtime",
+    "k--kato.docomment",                // C# XML doc comments
+    "ms-dotnettools.csdevkit",          // C# Dev Kit (solution management, test explorer)
+
+    // ═══════════════════════════════════════
+    // 🐍 PYTHON
+    // ═══════════════════════════════════════
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "ms-python.debugpy",
+    "ms-toolsai.jupyter",
+    "ms-python.black-formatter",        // Code formatter (optional but recommended)
+    "charliermarsh.ruff",               // Fast linter
+
+    // ═══════════════════════════════════════
+    // 🧩 GENERAL ENHANCEMENTS (all languages)
+    // ═══════════════════════════════════════
     "eamodio.gitlens",
     "GitHub.copilot",
     "GitHub.copilot-chat",
     "ms-vsliveshare.vsliveshare",
-
-    // ── DevOps & Tools ──
     "ms-azuretools.vscode-docker",
     "rangav.vscode-thunder-client",
-    "ms-vscode-remote.remote-ssh",
-
-    // ── Visual Enhancement ──
     "PKief.material-icon-theme",
     "usernamehw.errorlens",
-    "aaron-bond.better-comments",
     "oderwat.indent-rainbow",
     "Gruntfuggly.todo-tree",
-
-    // ── Utilities ──
     "alefragnani.Bookmarks",
     "naumovs.color-highlight",
-    "wix.glean",
+    "mechatroner.rainbow-csv"
+  ]
+}    "wix.glean",
     "mechatroner.rainbow-csv"
   ]
 }
