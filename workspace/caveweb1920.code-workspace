@@ -1,0 +1,12 @@
+{
+  "folders": [
+    { "name": "Frontend", "path": "../packages/frontend" },
+    { "name": "Backend", "path": "../packages/backend" },
+    { "name": "Documentation", "path": "../docs" }
+  ],
+  "settings": {
+    "files.watcherExclude": {
+      "**/docs/**": true
+    }
+  }
+}
