@@ -1,0 +1,25 @@
+[
+  // Editing
+  { "key": "ctrl+shift+k", "command": "editor.action.deleteLines" },
+  { "key": "alt+shift+down", "command": "editor.action.copyLinesDownAction" },
+  { "key": "alt+shift+up", "command": "editor.action.copyLinesUpAction" },
+  { "key": "ctrl+/", "command": "editor.action.commentLine" },
+  { "key": "shift+alt+f", "command": "editor.action.formatDocument" },
+
+  // Navigation
+  { "key": "ctrl+p", "command": "workbench.action.quickOpen" },
+  { "key": "ctrl+shift+f", "command": "workbench.action.findInFiles" },
+  { "key": "ctrl+b", "command": "workbench.action.toggleSidebarVisibility" },
+  { "key": "f12", "command": "editor.action.revealDefinition" },
+
+  // Terminal
+  { "key": "ctrl+`", "command": "workbench.action.terminal.toggleTerminal" },
+  { "key": "ctrl+shift+`", "command": "workbench.action.terminal.new" },
+
+  // Debugging
+  { "key": "f5", "command": "workbench.action.debug.start" },
+  { "key": "f9", "command": "editor.debug.action.toggleBreakpoint" },
+
+  // GitLens
+  { "key": "ctrl+shift+g ctrl+b", "command": "gitlens.toggleFileBlame" }
+]
