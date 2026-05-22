@@ -1,5 +1,6 @@
 {
   "recommendations": [
+    // ── Core Web Development ──
     "esbenp.prettier-vscode",
     "dbaeumer.vscode-eslint",
     "formulahendry.auto-close-tag",
@@ -7,19 +8,33 @@
     "christian-kohler.path-intellisense",
     "ritwickdey.LiveServer",
     "bradlc.vscode-tailwindcss",
+
+    // ── JavaScript / React ──
     "dsznajder.es7-react-js-snippets",
+    "yoavbls.pretty-ts-errors",
+
+    // ── Git & Collaboration ──
     "eamodio.gitlens",
     "GitHub.copilot",
     "GitHub.copilot-chat",
-    "ms-azuretools.vscode-docker",
     "ms-vsliveshare.vsliveshare",
+
+    // ── DevOps & Tools ──
+    "ms-azuretools.vscode-docker",
     "rangav.vscode-thunder-client",
+    "ms-vscode-remote.remote-ssh",
+
+    // ── Visual Enhancement ──
     "PKief.material-icon-theme",
     "usernamehw.errorlens",
     "aaron-bond.better-comments",
     "oderwat.indent-rainbow",
     "Gruntfuggly.todo-tree",
+
+    // ── Utilities ──
     "alefragnani.Bookmarks",
-    "naumovs.color-highlight"
+    "naumovs.color-highlight",
+    "wix.glean",
+    "mechatroner.rainbow-csv"
   ]
 }
