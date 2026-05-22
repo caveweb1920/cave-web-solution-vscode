@@ -1,0 +1,49 @@
+{
+  "name": "Cave Dark Pro",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#1a1b26",
+    "editor.foreground": "#a9b1d6",
+    "sideBar.background": "#16171f",
+    "activityBar.background": "#16171f",
+    "activityBar.foreground": "#7aa2f7",
+    "statusBar.background": "#16171f",
+    "titleBar.activeBackground": "#16171f",
+    "terminal.background": "#1a1b26",
+    "focusBorder": "#7aa2f7"
+  },
+  "tokenColors": [
+    {
+      "scope": "comment",
+      "settings": { "foreground": "#565f89", "fontStyle": "italic" }
+    },
+    {
+      "scope": "string",
+      "settings": { "foreground": "#9ece6a" }
+    },
+    {
+      "scope": "keyword",
+      "settings": { "foreground": "#bb9af7", "fontStyle": "italic" }
+    },
+    {
+      "scope": "entity.name.function",
+      "settings": { "foreground": "#7aa2f7" }
+    },
+    {
+      "scope": "variable",
+      "settings": { "foreground": "#c0caf5" }
+    },
+    {
+      "scope": "entity.name.tag",
+      "settings": { "foreground": "#f7768e" }
+    },
+    {
+      "scope": "entity.other.attribute-name",
+      "settings": { "foreground": "#e0af68" }
+    },
+    {
+      "scope": "constant.numeric",
+      "settings": { "foreground": "#ff9e64" }
+    }
+  ]
+}
