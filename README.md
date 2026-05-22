@@ -1,31 +1,71 @@
-# 🦇 Cave Web Solution VS Code Configuration
+# 🦇 Cave Web Solution · Ultimate VS Code Setup
 
-A carefully tuned VS Code setup for the **Cave Web Solution** team.
+A complete, zero‑bloat VS Code configuration for modern web development.
+Hand‑crafted by the **Cave Web Solution** team, tested daily on real projects.
 
-**Features:**
-- ⚡ Performance-optimized settings (watcher exclusions, memory limits)
-- 🎨 **Cave Dark Pro** custom theme – deep, low-eye-strain palette
-- 🔤 Font: JetBrains Mono with ligatures
-- 🧩 35+ hand-picked extensions
-- ⌨️ 40+ productivity shortcuts
-- ✂️ Custom snippets for HTML/CSS/JS
-
-## Quick Start
-1. Copy `settings.json` to your VS Code user settings.
-2. Copy `cave-dark-pro-theme.json` to `.vscode/extensions/` (or apply via "Preferences: Color Theme").
-3. Install extensions from `extensions.json` using the "Extensions: Install from VSIX" command.
-4. Install **[JetBrains Mono](https://www.jetbrains.com/lp/mono/)** font.
-5. (Optional) Copy `keybindings.json` for shortcuts.
-
-## ⚡ Top Tips (from our 20‑tip collection)
-1. `Ctrl+Shift+P` > **“Developer: Reload Window”** if editor slows down.
-2. Use `F2` to rename a variable across the whole project.
-3. Type `div.container>ul>li*5` then `Tab` (Emmet magic).
-4. `Alt+Shift+Down` duplicates a line instantly.
-5. Open the command palette (`Ctrl+Shift+P`) and search **“Zen Mode”** for distraction‑free coding.
-
-> Full tip list and advanced performance guide are in the [Wiki](https://github.com/cave-web-solution/vscode-setup/wiki).
+## ✨ What’s Inside
+- ⚡ **Performance‑tuned settings** → startup under 3 seconds
+- 🎨 **Cave Dark Pro** – a custom, eye‑comfort theme
+- 🔤 **JetBrains Mono** – the best coding font (with ligatures)
+- 🧩 **38 curated extensions** – only the ones you actually need
+- ⌨️ **40+ productivity shortcuts** – organised by category
+- ✂️ **Snippets** for HTML, CSS, JavaScript & React
+- 🏢 **Multi‑root workspace** template
 
 ---
 
-*Maintained by Cave Web Solution — “Code in the dark, ship in the light.”*
+## 🚀 Quick Start (5 minutes)
+
+### 1. Install the font
+Download [JetBrains Mono](https://www.jetbrains.com/lp/mono/) and install it.
+On macOS double‑click the `.ttf` files; on Windows right‑click → Install.
+
+### 2. Copy the settings
+- Open VS Code, press `Ctrl+Shift+P` and search **“Preferences: Open User Settings (JSON)”**.
+- Replace the content with our `settings.json`.
+- Restart VS Code.
+
+### 3. Install the extensions
+- Open the file `extensions.json` from this repository.
+- In VS Code, press `Ctrl+Shift+P` → **“Extensions: Install from VSIX”** is not needed; instead, you can run a script (see below) or install them manually.
+- **Manual method:** Search for each extension ID in the Extensions view and install.
+
+### 4. Apply the Cave Dark Pro theme
+- Copy `cave-dark-pro-theme.json` to your VS Code extensions folder:
+  - **Windows:** `%USERPROFILE%\.vscode\extensions\cave-dark-pro-theme\`
+  - **macOS/Linux:** `~/.vscode/extensions/cave-dark-pro-theme/`
+  - Create the folder if needed, then paste the file inside and restart VS Code.
+- Then go to `Ctrl+K Ctrl+T` and select **Cave Dark Pro**.
+
+### 5. Import the keybindings (optional)
+- Press `Ctrl+Shift+P` → **“Preferences: Open Keyboard Shortcuts (JSON)”**
+- Append the contents of `keybindings.json`.
+
+### 6. Add the snippets
+- Press `Ctrl+Shift+P` → **“Preferences: Configure User Snippets”** → choose a language.
+- Copy the corresponding snippet file content.
+
+---
+
+## ⚙️ Performance Tweaks
+
+- **Disable unused extensions** – Right‑click any extension → Disable.
+- **Use a workspace** – Open the `cave-web.code-workspace` file to enable project‑specific settings.
+- **Increase memory limit** – In `settings.json`, `files.maxMemoryForLargeFilesMB` is set to 4096 (4GB).
+- **Exclude heavy folders** – `node_modules`, `dist`, `.git` are already excluded from the watcher.
+
+---
+
+## 💡 Top 5 Tips for Beginners
+1. **Command Palette is king:** `Ctrl+Shift+P` lets you do *anything* without the mouse.
+2. **Emmet magic:** type `ul>li*5` then press `Tab` to expand instantly.
+3. **Multi‑cursor:** Hold `Alt` and click anywhere, or `Ctrl+D` to select the next occurrence.
+4. **Rename symbol:** `F2` renames a variable/function across the whole project.
+5. **Zen Mode:** `Ctrl+K Z` for distraction‑free coding.
+
+*Full tip collection available on our Wiki.*
+
+---
+
+## 🤝 Contributing
+Pull requests welcome. This setup is maintained by Cave Web Solution.
