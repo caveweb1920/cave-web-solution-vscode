@@ -1,0 +1,10 @@
+{
+  "Console Log": {
+    "prefix": "clg",
+    "body": "console.log($1);"
+  },
+  "Arrow Function": {
+    "prefix": "afn",
+    "body": "const $1 = ($2) => {$3};"
+  }
+}
