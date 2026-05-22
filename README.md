@@ -1,43 +1,31 @@
-# 🦇 Cave Web Solution — The Ultimate VS Code Setup
+# 🦇 Cave Web Solution VS Code Configuration
 
-> A hand‑crafted, battle‑tested Visual Studio Code configuration tailored for the **Cave Web Solution** team.
-> Optimised for modern web development, performance, and eye comfort.
+A carefully tuned VS Code setup for the **Cave Web Solution** team.
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue)
-![VS Code](https://img.shields.io/badge/VS%20Code-1.95%2B-007ACC)
-![License](https://img.shields.io/badge/license-MIT-green)
+**Features:**
+- ⚡ Performance-optimized settings (watcher exclusions, memory limits)
+- 🎨 **Cave Dark Pro** custom theme – deep, low-eye-strain palette
+- 🔤 Font: JetBrains Mono with ligatures
+- 🧩 35+ hand-picked extensions
+- ⌨️ 40+ productivity shortcuts
+- ✂️ Custom snippets for HTML/CSS/JS
 
-## 🎯 Why This Exists
+## Quick Start
+1. Copy `settings.json` to your VS Code user settings.
+2. Copy `cave-dark-pro-theme.json` to `.vscode/extensions/` (or apply via "Preferences: Color Theme").
+3. Install extensions from `extensions.json` using the "Extensions: Install from VSIX" command.
+4. Install **[JetBrains Mono](https://www.jetbrains.com/lp/mono/)** font.
+5. (Optional) Copy `keybindings.json` for shortcuts.
 
-We spent 300+ hours tweaking colours, testing fonts, and benchmarking extensions
-so you don't have to. This repository captures the exact setup we use daily to
-build high‑performance websites, web apps, and APIs at **Cave Web Solution**.
+## ⚡ Top Tips (from our 20‑tip collection)
+1. `Ctrl+Shift+P` > **“Developer: Reload Window”** if editor slows down.
+2. Use `F2` to rename a variable across the whole project.
+3. Type `div.container>ul>li*5` then `Tab` (Emmet magic).
+4. `Alt+Shift+Down` duplicates a line instantly.
+5. Open the command palette (`Ctrl+Shift+P`) and search **“Zen Mode”** for distraction‑free coding.
 
-**What’s inside:**
-- ⚡ **Performance‑tuned** `settings.json` — up to 40% faster startup
-- 🎨 **Cave Dark Pro** custom theme — designed for 8‑hour coding sessions
-- 🔤 **7 hand‑picked fonts** with ligature configuration
-- 🧩 **40+ curated extensions** organised by category
-- ⌨️ **40+ keyboard shortcuts** organised for muscle memory
-- 💡 **20 advanced tips** you won't find in the docs
-- 🏢 **Multi‑root workspace** template for monorepos
+> Full tip list and advanced performance guide are in the [Wiki](https://github.com/cave-web-solution/vscode-setup/wiki).
 
-## 📚 Table of Contents
+---
 
-- [Quick Start](#quick-start)
-- [Settings](#settings)
-- [Cave Dark Pro Theme](#cave-dark-pro-theme)
-- [Fonts](#fonts)
-- [Extensions](#extensions)
-- [Keyboard Shortcuts](#keyboard-shortcuts)
-- [Tips & Tricks](#tips--tricks)
-- [Performance Optimisation](#performance-optimisation)
-- [Workspace Setup](#workspace-setup)
-- [Custom Snippets](#custom-snippets)
-- [Contributing](#contributing)
-
-## 🚀 Quick Start
-
-1. **Clone this repository**  
-   ```bash
-   git clone https://github.com/cave-web-solution/vscode-setup.git
+*Maintained by Cave Web Solution — “Code in the dark, ship in the light.”*
